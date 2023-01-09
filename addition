@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Addition</h2>
+<p>this will be my first addition.</p>
+
+
+
+<script>
+document.write(100 + 16);
+</script>
+
+</body>
+</html> 
