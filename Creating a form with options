@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>CHOOSE YOUR FAVORITE MOVIE</h3>
+
+<form>
+  <input list="myDatalist"> 
+  <datalist id="myDatalist"> 
+    <option value="Interstellar">
+    <option value="Fight Clu.">
+    <option value="Silence">
+    <option value="2001">
+    <option value="Superbad">
+  </datalist>
+</form>
