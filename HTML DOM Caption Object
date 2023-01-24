@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h3>how to access and alter CAPTION element</h3>
+
+<table>
+  <caption id="myCaption">TOYSRUS</caption>
+  <tr>
+  <th>Toys</th>
+  <th>ID</th>
+  </tr>
+  <tr>
+  <td>bike</td>
+  <td>4322</td>
+  </tr>
+  <tr>
+  <td>car</td>
+  <td>5000</td>
+  </tr>
+</table>
+
+<p>Click the button to set the color of the caption to red.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myCaption");
+  x.style.color = "blue";
+}
+</script>
+
+</body>
+</html>
