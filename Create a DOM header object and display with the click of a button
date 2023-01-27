@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to create a HEADER.</p>
+
+<button onclick="myFunction()">PRESS ME</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("HEADER");
+  x.setAttribute("id", "myHeader");
+  document.body.appendChild(x);
+
+  var y = document.createElement("H3"); 
+  var t = document.createTextNode("I am a HEADER");
+  y.appendChild(t);
+
+  document.getElementById("myHeader").appendChild(y);
+}
+</script>
+
+</body>
+</html>
