@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Accessing an HTML element</h3>
+
+<button onclick="myFunction()">PRESS ME</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByTagName("HTML")[0].innerHTML;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
