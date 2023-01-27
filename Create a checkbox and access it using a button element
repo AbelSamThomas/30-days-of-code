@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Programme to make and access a Checkbox with a button</h3>
+
+Checkbox: <input type="checkbox" id="myCheck">
+
+
+<button onclick="myFunction()">PRESS ME</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myCheck");
+  x.checked = true;
+}
+</script>
+
+</body>
+</html>
