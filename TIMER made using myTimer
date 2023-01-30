@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>TIMER made using myTimer</h2>
+
+<p>Timer starts now</p>
+
+<p id="demo"></p>
+
+<script>
+setInterval(myTimer, 1000);
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+</body>
+</html>
+
